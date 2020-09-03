@@ -1,3 +1,6 @@
+/**
+Styles can be changed to fit the needs of your own org.
+*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Mono&display=swap');
 body{
     background-color: #501214;
@@ -10,7 +13,6 @@ body{
 }
 h1{
     color: #FFFEF6;
-    border: 20px #EAAA00;
     text-shadow: 2px 2px 4px #000000;
 
 }
