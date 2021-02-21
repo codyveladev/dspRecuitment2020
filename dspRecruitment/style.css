@@ -1,19 +1,14 @@
 /**
 Styles can be changed to fit the needs of your own org.
 */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
 body{
-    background-color: #501214;
-    font-family: 'Merriweather', serif;
+    background-color: #F2F2F2;
+    font-family: 'IBM Plex Serif', serif;
     margin: auto;
     width: 100%;
     padding: 10px;
     text-align: center;
-
-}
-h1{
-    color: #FFFEF6;
-    text-shadow: 2px 2px 4px #000000;
 
 }
 img{
@@ -21,11 +16,6 @@ img{
     height: 200px;
     border-block: 200px black;
 
-}
-p{
-    font-family: 'Roboto Mono', monospace;
-    color: #FFFEF6;
-    text-shadow: 2px 2px 4px #000000;
 }
 /* Style all font awesome icons */
 .fa {
@@ -45,18 +35,7 @@ p{
 /* Set a specific color for each brand */
 
 /* Instagram */
-.fa-instagram {
-    background: #501214;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #501214;
-  color: white;
-}
-/* Facebook */
-.fa-facebook {
-    background: #501214;
-    color: white;
+.fa-instagram, .fa-twitter, .fa-facebook {
+    background: #F2F2F2;
+    color: black;
 }
